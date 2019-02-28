@@ -6,7 +6,7 @@ This website will show the user what type of space is available and what tools a
 
 #### By _Maly Phongsavanh_
 
-
+## Sketches of Landing Pages
 
 Desktop View | Tablet View | Mobile View | Icons |
 --------------- | ------------- | ------------- | ---------------
