@@ -7,6 +7,16 @@ This website will show the user what type of space is available and what tools a
 #### By _Maly Phongsavanh_
 
 
+
+Desktop View | Tablet View | Mobile View
+--------------- | ------------- | -------------
+<img src="img/desktop.jpg" height="150px"> |<img src="img/tablet.jpg" height="150px"> | <img src="img/mobile.jpg" height="150px">
+
+
+
+
+
+
 ## Support and contact details
 
 _If there are any questions or would like to contribute to the code, please feel free to email [Maly Phongsavanh](mailto:phongsavanh619@icloud.com)_
