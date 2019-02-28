@@ -8,13 +8,9 @@ This website will show the user what type of space is available and what tools a
 
 
 
-Desktop View | Tablet View | Mobile View
---------------- | ------------- | -------------
-<img src="img/desktop.jpg" height="150px"> |<img src="img/tablet.jpg" height="150px"> | <img src="img/mobile.jpg" height="150px">
-
-Icons |
---------------- |
- <img src="img/mobile.jpg" height="150px">|
+Desktop View | Tablet View | Mobile View | Icons |
+--------------- | ------------- | ------------- | ---------------
+<img src="img/desktop.jpg" height="150px"> | <img src="img/tablet.jpg" height="150px"> | <img src="img/mobile.jpg" height="150px"> | <img src="img/icons.jpg" height="150px">
 
 
 
