@@ -1,8 +1,13 @@
-
+body {
+  cursor: grab;
+  text-align: center;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  text-align: center;
+  align-items: center;
   h1 {
     grid-area: 3 / 3;
     font-family: 'Bungee Shade', cursive;
@@ -25,4 +30,7 @@ a {
   font-family: 'Bungee', cursive;
   text-decoration: none;
   text-transform: uppercase;
+  &hover {
+    cursor: pointer;
+  }
 }
