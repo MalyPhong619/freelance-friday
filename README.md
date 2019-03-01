@@ -19,9 +19,9 @@ Landing Page | Icons |
 
 ## Personas
 
-Cathy - Bride |
-------------- |
-<img src="img/Cathy.png" height="150px">
+Cathy - Bride | Eimer - Tech |
+------------- | ------------- |
+<img src="img/Cathy.png" height="150px"> | <img src="img/Eimer.png" height="150px">
 
 
 
