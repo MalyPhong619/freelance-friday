@@ -1,7 +1,10 @@
+@import 'variables';
+
 body {
   cursor: grab;
   text-align: center;
 }
+
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -10,7 +13,7 @@ body {
   align-items: center;
   h1 {
     grid-area: 3 / 3;
-    font-family: 'Bungee Shade', cursive;
+    font-family: $header-font;
   }
   #workspace-div {
     grid-area: 2 / 2;
@@ -27,7 +30,7 @@ body {
 }
 
 a {
-  font-family: 'Bungee', cursive;
+  font-family: $secondary-font;
   text-decoration: none;
   text-transform: uppercase;
   &hover {
