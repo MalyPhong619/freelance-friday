@@ -17,6 +17,14 @@ Landing Page | Icons |
 <img src="img/landing-pages.png"> | <img src="img/symbols.png">
 
 
+## Personas
+
+Cathy - Bride |
+------------- |
+<img src="img/Cathy.png" height="150px">
+
+
+
 ## Support and contact details
 
 If there are any _questions_ or would like to contribute to the code, please feel free to email
