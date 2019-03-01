@@ -9,22 +9,27 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
 
-  module: {
+  devtool: 'eval-source-map',
+  devServer: {
+    contentBase: './dist'
+  },
 
+  module: {
     rules: [
+
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
-          'style-loader',
-          'css-loader'
+            "style-loader",
+            "css-loader",
+            "sass-loader"
         ]
       }
-    ]
 
+    ]
   },
 
   plugins: [
-
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/index.html',
