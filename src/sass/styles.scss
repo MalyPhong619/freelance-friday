@@ -15,4 +15,19 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  h1 {
+    grid-area: 3 / 3;
+  }
+  #workspace-div {
+    grid-area: 2 / 2;
+  }
+  #amenities-div {
+    grid-area: 2 / 4;
+  }
+  #join-div {
+    grid-area: 4 / 2;
+  }
+  #contact-div {
+    grid-area: 4 / 4;
+  }
 }
