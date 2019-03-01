@@ -1,8 +1,18 @@
 $font-stack: Helvetica, sans-serif;
 $primary-font-color: red;
 
+* {
+  border: 1px solid white;
+}
+
 body {
   font: 100% $font-stack;
   color: $primary-font-color;
   background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
