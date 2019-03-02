@@ -10,3 +10,7 @@
   border: 1px solid $color;
   border-radius: 50%;
 }
+@mixin bubble-inNout {
+  opacity: .8;
+  box-shadow: 8px 8px 18px black, inset 8px 3px 25px white;
+}

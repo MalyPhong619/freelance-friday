@@ -21,18 +21,23 @@ body {
     font-size: 4em;
   }
   #empty-workspace-div {
+    @include bubble-inNout;
     grid-area: 1 / 2;
-    background-color: red;
-    opacity: .7;
-    box-shadow: 8px 8px 18px black;
+    background-color: $workspace-color;
   }
   #empty-amenities-div {
+    @include bubble-inNout;
+    background-color: $amenities-color;
     grid-area: 1 / 4;
   }
   #empty-join-div {
+    @include bubble-inNout;
+    background-color: $join-color;
     grid-area: 3 / 2;
   }
   #empty-contact-div {
+    @include bubble-inNout;
+    background-color: $contact-color;
     grid-area: 3 / 4;
   }
 }
@@ -53,16 +58,19 @@ body {
   }
   #workspace-div {
     grid-area: 1 / 2;
-    box-shadow: inset 8px 3px 18px red;
+    box-shadow: inset 8px 3px 18px $workspace-color;
   }
   #amenities-div {
     grid-area: 1 / 4;
+    box-shadow: inset 8px 3px 18px $amenities-color;
   }
   #join-div {
     grid-area: 3 / 2;
+    box-shadow: inset 8px 3px 18px $join-color;
   }
   #contact-div {
     grid-area: 3 / 4;
+    box-shadow: inset 8px 3px 18px $contact-color;
   }
 }
 a {
@@ -78,27 +86,23 @@ a {
 }
 #workspace-div, #empty-workspace-div {
   @include center-it;
-  @include circle(10em, red);
+  @include circle(10em, $workspace-color);
   a {
     font-size: 1.3em;
   }
 }
 #amenities-div, #empty-amenities-div {
   @include center-it;
-  @include circle(7em, blue);
+  @include circle(7em, $amenities-color);
 }
 #join-div, #empty-join-div {
   @include center-it;
-  @include circle(8em, green);
+  @include circle(8em, $join-color);
   a {
     font-size: 2em;
   }
 }
 #contact-div, #empty-contact-div {
   @include center-it;
-  @include circle(5em, orange);
-}
-
-div {
-  @include center-it;
+  @include circle(5em, $contact-color);
 }
