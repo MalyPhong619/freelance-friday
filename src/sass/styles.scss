@@ -8,24 +8,25 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   text-align: center;
   align-items: center;
   h1 {
-    grid-area: 3 / 3;
+    grid-area: 2 / 3;
     font-family: $header-font;
+    font-size: 4em;
   }
   #workspace-div {
-    grid-area: 2 / 2;
+    grid-area: 1 / 2;
   }
   #amenities-div {
-    grid-area: 2 / 4;
+    grid-area: 1 / 4;
   }
   #join-div {
-    grid-area: 4 / 2;
+    grid-area: 3 / 2;
   }
   #contact-div {
-    grid-area: 4 / 4;
+    grid-area: 3 / 4;
   }
 }
 
