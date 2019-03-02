@@ -3,3 +3,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin circle($number, $color) {
+  height: $number;
+  width: $number;
+  border: 1px solid $color;
+  border-radius: 50%;
+}

@@ -10,7 +10,6 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  text-align: center;
   align-items: center;
   h1 {
     grid-area: 2 / 3;
@@ -30,20 +29,34 @@ body {
     grid-area: 3 / 4;
   }
 }
-
 a {
   font-family: $secondary-font;
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
   &hover {
     cursor: pointer;
   }
 }
-
 #workspace-div {
   @include center-it;
-  height: 5em;
-  border: 1px solid red;
-  border-radius: 50%;
-
+  @include circle(10em, red);
+  a {
+    font-size: 1.3em;
+  }
+}
+#amenities-div {
+  @include center-it;
+  @include circle(7em, blue);
+}
+#join-div {
+  @include center-it;
+  @include circle(8em, green);
+  a {
+    font-size: 2em;
+  }
+}
+#contact-div {
+  @include center-it;
+  @include circle(5em, orange);
 }
