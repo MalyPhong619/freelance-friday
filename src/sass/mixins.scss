@@ -4,16 +4,16 @@
   align-items: center;
 }
 
-@mixin circle($number, $color) {
+@mixin circle($number) {
   height: $number;
   width: $number;
-  border: 1px solid $color;
+  border: 1px solid white;
   border-radius: 50%;
 }
 @mixin bubble-inNout {
   opacity: .8;
-  box-shadow: 8px 8px 18px black, inset 8px 3px 25px white;
+  box-shadow: 8px 8px 50px black, inset 8px 3px 25px white;
 }
-@mixin inset-shadow($color) {
-  box-shadow: inset 8px 3px 18px $color;
+@mixin inset-shadow {
+  box-shadow: inset 8px 3px 18px white;
 }

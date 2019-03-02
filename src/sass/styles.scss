@@ -4,105 +4,164 @@
 body {
   cursor: grab;
   text-align: center;
+  background-image: radial-gradient(white, orange, #087E8B);
 }
 
 // z-index grid for bubble
 .container-two {
   position: fixed;
-  top: 10%;
   z-index: -2;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  align-items: center;
-  h1 {
-    grid-area: 2 / 3;
-    font-family: $header-font;
-    font-size: 4em;
-  }
-  #empty-workspace-div {
+  top: 10%;
+  left: 15%;
+  height: 75%;
+  width: 80%;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+  #bubble-1, #bubble-5, #bubble-9, #bubble-14{
+    align-self: center;
+    @include circle(5em);
     @include bubble-inNout;
-    grid-area: 1 / 2;
-    background-color: $workspace-color;
   }
-  #empty-amenities-div {
+  #bubble-3, #bubble-7, #bubble-8, #bubble-11, #bubble-15, #bubble-2, #bubble-12, #bubble-13 {
+    align-self: right;
+    @include circle(9em);
     @include bubble-inNout;
-    background-color: $amenities-color;
-    grid-area: 1 / 4;
   }
-  #empty-join-div {
+  #bubble-4, #bubble-16, #bubble-6, #bubble-10{
+    @include circle(4em);
     @include bubble-inNout;
-    background-color: $join-color;
-    grid-area: 3 / 2;
-  }
-  #empty-contact-div {
-    @include bubble-inNout;
-    background-color: $contact-color;
-    grid-area: 3 / 4;
   }
 }
 
+#bubble-1 {
+  grid-area: 1 / 2;
+}
+
+#bubble-2 {
+  grid-area: 3 / 4;
+}
+
+#bubble-3 {
+  grid-area: 4 / 7;
+}
+
+#bubble-4 {
+  grid-area: 5 / 6;
+}
+
+#bubble-5 {
+  grid-area: 5 / 1;
+}
+
+#bubble-6 {
+  grid-area: 4 / 2;
+}
+
+#bubble-7 {
+  grid-area: 4 / 4;
+}
+
+#bubble-8 {
+  grid-area: 9 / 8;
+}
+
+#bubble-9 {
+  grid-area: 9 / 3;
+}
+
+#bubble-10 {
+  grid-area: 7 / 5;
+}
+
+#bubble-11 {
+  grid-area: 6 / 3;
+}
+
+#bubble-12 {
+  grid-area: 7 / 7;
+}
+
+#bubble-13 {
+  grid-area: 8 / 2;
+}
+
+#bubble-14 {
+  grid-area: 1 / 7;
+}
+
+#bubble-15 {
+  grid-area: 7 / 1;
+}
+
+#bubble-16 {
+  grid-area: 2 / 8;
+}
 
 // main grid
 .container {
   position: fixed;
   top: 10%;
+  height: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
   h1 {
+    color: #634523;
     grid-area: 2 / 3;
     font-family: $header-font;
-    font-size: 4em;
+    font-size: 8em;
   }
   #workspace-div {
     grid-area: 1 / 2;
-    @include inset-shadow($workspace-color);
   }
   #amenities-div {
     grid-area: 1 / 4;
-    @include inset-shadow($amenities-color);
   }
   #join-div {
     grid-area: 3 / 2;
-    @include inset-shadow($join-color);
   }
   #contact-div {
     grid-area: 3 / 4;
-    @include inset-shadow($contact-color);
   }
 }
 a {
   font-family: $secondary-font;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: white;
   &:hover {
     cursor: pointer;
-    color: white;
+    color: black;
     text-shadow: 3px 3px 10px black;
   }
 }
-#workspace-div, #empty-workspace-div {
+#workspace-div {
   @include center-it;
-  @include circle(10em, $workspace-color);
+  @include circle(10em);
+  @include bubble-inNout;
   a {
     font-size: 1.3em;
   }
 }
-#amenities-div, #empty-amenities-div {
+#amenities-div {
   @include center-it;
-  @include circle(7em, $amenities-color);
+  @include circle(7em);
+  @include bubble-inNout;
 }
-#join-div, #empty-join-div {
+#join-div {
   @include center-it;
-  @include circle(8em, $join-color);
+  @include circle(8em);
+  @include bubble-inNout;
   a {
     font-size: 2em;
   }
 }
-#contact-div, #empty-contact-div {
+#contact-div {
   @include center-it;
-  @include circle(5em, $contact-color);
+  @include circle(5em);
+  @include bubble-inNout;
 }
