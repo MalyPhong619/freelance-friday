@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.10",
     "file-loader": "^1.1.6",
     "html-srcsets-loader": "^0.5.1",
