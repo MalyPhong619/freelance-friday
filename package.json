@@ -1,0 +1,25 @@
+{
+  "name": "freelance",
+  "version": "1.0.0",
+  "description": "#### _Finger Tapper provides work spaces for anyone and everyone who needs to step out of the house or office and work in an environment that will allow them to focus solely on work. Finger Tapper provides all types of tools and tables to get your work done!_",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
