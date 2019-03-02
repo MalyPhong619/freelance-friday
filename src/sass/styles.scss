@@ -10,7 +10,7 @@ body {
 .container-two {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: -2;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -53,6 +53,7 @@ body {
   }
   #workspace-div {
     grid-area: 1 / 2;
+    box-shadow: inset 8px 3px 18px red;
   }
   #amenities-div {
     grid-area: 1 / 4;
