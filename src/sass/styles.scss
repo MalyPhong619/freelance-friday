@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 body {
   cursor: grab;
@@ -37,4 +38,12 @@ a {
   &hover {
     cursor: pointer;
   }
+}
+
+#workspace-div {
+  @include center-it;
+  height: 5em;
+  border: 1px solid red;
+  border-radius: 50%;
+
 }
