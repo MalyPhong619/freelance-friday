@@ -58,19 +58,19 @@ body {
   }
   #workspace-div {
     grid-area: 1 / 2;
-    box-shadow: inset 8px 3px 18px $workspace-color;
+    @include inset-shadow($workspace-color);
   }
   #amenities-div {
     grid-area: 1 / 4;
-    box-shadow: inset 8px 3px 18px $amenities-color;
+    @include inset-shadow($amenities-color);
   }
   #join-div {
     grid-area: 3 / 2;
-    box-shadow: inset 8px 3px 18px $join-color;
+    @include inset-shadow($join-color);
   }
   #contact-div {
     grid-area: 3 / 4;
-    box-shadow: inset 8px 3px 18px $contact-color;
+    @include inset-shadow($contact-color);
   }
 }
 a {

@@ -10,18 +10,18 @@ This website will show the user what type of space is available and what tools a
 
 Desktop View | Tablet View | Mobile View | Icons |
 --------------- | ------------- | ------------- | ---------------
-<img src="img/desktop.jpg" height="150px"> | <img src="img/tablet.jpg" height="150px"> | <img src="img/mobile.jpg" height="150px"> | <img src="img/icons.jpg" height="150px">
+<img src="READMEimgs/desktop.jpg" height="150px"> | <img src="READMEimgs/tablet.jpg" height="150px"> | <img src="READMEimgs/mobile.jpg" height="150px"> | <img src="READMEimgs/icons.jpg" height="150px">
 
 Landing Page | Icons |
 --------------- | ------------- |
-<img src="img/landing-pages.png"> | <img src="img/symbols.png">
+<img src="READMEimgs/landing-pages.png"> | <img src="READMEimgs/symbols.png">
 
 
 ## Personas
 
 Cathy - Bride | Eimer - Tech | Andrea - Owner |
 ------------- | ------------- | ------------- |
-<img src="img/Cathy.png" height="150px"> | <img src="img/Eimer.png" height="150px"> | <img src="img/Andrea.png" height="150px">
+<img src="READMEimgs/Cathy.png" height="150px"> | <img src="READMEimgs/Eimer.png" height="150px"> | <img src="READMEimgs/Andrea.png" height="150px">
 
 
 
