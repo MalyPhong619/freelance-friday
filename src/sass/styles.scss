@@ -9,7 +9,7 @@ body {
 // z-index grid for bubble
 .container-two {
   position: fixed;
-  top: 0;
+  top: 10%;
   z-index: -2;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -41,7 +41,7 @@ body {
 // main grid
 .container {
   position: fixed;
-  top: 0;
+  top: 10%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -70,8 +70,10 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  &hover {
+  &:hover {
     cursor: pointer;
+    color: white;
+    text-shadow: 3px 3px 10px black;
   }
 }
 #workspace-div, #empty-workspace-div {
@@ -95,4 +97,8 @@ a {
 #contact-div, #empty-contact-div {
   @include center-it;
   @include circle(5em, orange);
+}
+
+div {
+  @include center-it;
 }

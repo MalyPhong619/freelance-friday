@@ -23,5 +23,13 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalyPhong619/freelance-friday.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MalyPhong619/freelance-friday/issues"
+  },
+  "homepage": "https://github.com/MalyPhong619/freelance-friday#readme"
 }
