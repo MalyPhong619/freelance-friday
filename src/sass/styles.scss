@@ -22,6 +22,9 @@ body {
   }
   #empty-workspace-div {
     grid-area: 1 / 2;
+    background-color: red;
+    opacity: .7;
+    box-shadow: 8px 8px 18px black;
   }
   #empty-amenities-div {
     grid-area: 1 / 4;
@@ -50,9 +53,6 @@ body {
   }
   #workspace-div {
     grid-area: 1 / 2;
-    background-color: red;
-    opacity: .7;
-    box-shadow: 1px 1px;
   }
   #amenities-div {
     grid-area: 1 / 4;
