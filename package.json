@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/MalyPhong619/freelance-friday/issues"
   },
-  "homepage": "https://github.com/MalyPhong619/freelance-friday#readme"
+  "homepage": "https://github.com/MalyPhong619/freelance-friday#readme",
+    "dependencies": {
+      "animate.css": "^3.7.0"
+  }
 }
