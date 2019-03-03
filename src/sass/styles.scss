@@ -1,10 +1,11 @@
 @import 'variables';
 @import 'mixins';
+@import 'bubbles';
 
 body {
   cursor: grab;
   text-align: center;
-  background-image: radial-gradient(white, orange, #087E8B);
+  background-image: radial-gradient(white, pink, #D1E88E,  #7BDBC5);
 }
 
 // z-index grid for bubble
@@ -12,7 +13,6 @@ body {
   position: fixed;
   z-index: -2;
   display: grid;
-  top: 10%;
   left: 15%;
   height: 75%;
   width: 80%;
@@ -35,69 +35,6 @@ body {
   }
 }
 
-#bubble-1 {
-  grid-area: 1 / 2;
-}
-
-#bubble-2 {
-  grid-area: 3 / 4;
-}
-
-#bubble-3 {
-  grid-area: 4 / 7;
-}
-
-#bubble-4 {
-  grid-area: 5 / 6;
-}
-
-#bubble-5 {
-  grid-area: 5 / 1;
-}
-
-#bubble-6 {
-  grid-area: 4 / 2;
-}
-
-#bubble-7 {
-  grid-area: 4 / 4;
-}
-
-#bubble-8 {
-  grid-area: 9 / 8;
-}
-
-#bubble-9 {
-  grid-area: 9 / 3;
-}
-
-#bubble-10 {
-  grid-area: 7 / 5;
-}
-
-#bubble-11 {
-  grid-area: 6 / 3;
-}
-
-#bubble-12 {
-  grid-area: 7 / 7;
-}
-
-#bubble-13 {
-  grid-area: 8 / 2;
-}
-
-#bubble-14 {
-  grid-area: 1 / 7;
-}
-
-#bubble-15 {
-  grid-area: 7 / 1;
-}
-
-#bubble-16 {
-  grid-area: 2 / 8;
-}
 
 // main grid
 .container {
@@ -110,7 +47,7 @@ body {
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
   h1 {
-    color: #634523;
+    color: #3C4547;
     grid-area: 2 / 3;
     font-family: $header-font;
     font-size: 8em;
@@ -132,7 +69,7 @@ a {
   font-family: $secondary-font;
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: #C94D49;
   &:hover {
     cursor: pointer;
     color: black;
