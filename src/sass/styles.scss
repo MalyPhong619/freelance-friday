@@ -46,6 +46,7 @@ body {
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
   h1 {
+    animation: bounceIn 4s;
     color: #3C4547;
     grid-area: 2 / 3;
     font-family: $header-font;

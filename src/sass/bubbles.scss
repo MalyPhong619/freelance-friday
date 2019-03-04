@@ -1,5 +1,18 @@
+@keyframes movement {
+  from {
+
+  }
+  to {
+    transform: translateY(100px);
+  }
+
+}
+
 #bubble-1 {
   grid-area: 1 / 2;
+  animation: movement 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 #bubble-2 {
   grid-area: 3 / 4;
