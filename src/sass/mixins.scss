@@ -18,8 +18,8 @@
   box-shadow: inset 8px 3px 18px white;
 }
 
-@mixin mobile {
-  @media screen and (max-width: 600px) {
+@mixin media-view($width){
+  @media screen and (max-width: $width) {
     @content;
   }
 }
