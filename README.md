@@ -23,6 +23,25 @@ Cathy - Bride | Eimer - Tech | Andrea - Owner |
 ------------- | ------------- | ------------- |
 <img src="READMEimgs/Cathy.png" height="150px"> | <img src="READMEimgs/Eimer.png" height="150px"> | <img src="READMEimgs/Andrea.png" height="150px">
 
+## Responsive views
+1. Mobile view
+  * Max width is - 360px
+  * Mobile view has minimal function for navigation.
+  * Bubbles and animations do not exist.
+  * Navigation buttons have icons inside with text.
+  * 4 navigation bubbles (Join, Contact, Amenities, & Work space)
+
+2. Tablet view
+  * Max/min width is - 768px/361px
+  * Tablet view has bubble animation along with clickable bubbles to navigate.
+  * Amounts of animated bubbles are cut in half from 16 to 8.
+  * 4 navigation bubbles (Join, Contact, Amenities, & Work space)
+
+3. Desktop view
+  * Min width is - 769px
+  * Desktop View has 16 animated bubbles.
+  * 4 navigation bubbles (Join, Contact, Amenities, & Work space)
+
 
 
 ## Support and contact details
