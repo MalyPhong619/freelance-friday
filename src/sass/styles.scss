@@ -51,13 +51,17 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
+  @include media-view(600px) {
+    display: flex;
+    flex-flow: column nowrap;
+  }
   h1 {
     color: #3C4547;
     grid-area: 2 / 3;
     font-family: $header-font;
     font-size: 8em;
     @include media-view(600px) {
-      font-size: 3em;
+      font-size: 5rem;
     }
   }
   #workspace-div {
