@@ -19,6 +19,9 @@ body {
   width: 80%;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
+  @include mobile {
+    display: none;
+  }
   #bubble-1, #bubble-5, #bubble-9, #bubble-14{
     align-self: center;
     @include circle(5em);
@@ -53,6 +56,9 @@ body {
     grid-area: 2 / 3;
     font-family: $header-font;
     font-size: 8em;
+    @include mobile {
+      font-size: 3em;
+    }
   }
   #workspace-div {
     grid-area: 1 / 2;
@@ -66,10 +72,10 @@ body {
   #contact-div {
     grid-area: 3 / 4;
   }
-  @include mobile {
 
-  }
 }
+
+
 a {
   font-family: $secondary-font;
   text-decoration: none;
