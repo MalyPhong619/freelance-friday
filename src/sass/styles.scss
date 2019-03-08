@@ -39,7 +39,6 @@ body {
 }
 
 
-// main grid
 .container {
   position: fixed;
   top: 10%;
@@ -68,6 +67,9 @@ body {
   #contact-div {
     grid-area: 3 / 4;
   }
+  @include mobile {
+
+  }
 }
 a {
   font-family: $secondary-font;
@@ -84,6 +86,9 @@ a {
   @include center-it;
   @include circle(10em);
   @include bubble-inNout;
+  a:hover {
+    animation: hovering 3s linear;
+  }
   a {
     font-size: 1.3em;
   }
@@ -92,11 +97,17 @@ a {
   @include center-it;
   @include circle(7em);
   @include bubble-inNout;
+  a:hover {
+    animation: hovering 3s linear;
+  }
 }
 #join-div {
   @include center-it;
   @include circle(8em);
   @include bubble-inNout;
+  a:hover {
+    animation: hovering 3s linear;
+  }
   a {
     font-size: 2em;
   }
@@ -105,4 +116,7 @@ a {
   @include center-it;
   @include circle(5em);
   @include bubble-inNout;
+  a:hover {
+    animation: hovering 3s linear;
+  }
 }
