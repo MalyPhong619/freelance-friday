@@ -7,6 +7,9 @@ body {
   cursor: grab;
   text-align: center;
   background-image: radial-gradient(white, pink, #D1E88E,  #7BDBC5);
+  @include media-view(600px) {
+    background-image: linear-gradient(white, pink, #D1E88E,  #7BDBC5);
+  }
 }
 
 // z-index grid for bubble
@@ -100,11 +103,12 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  a {
-    font-size: 1.3em;
-  }
+  // a {
+  //   font-size: 1.3em;
+  // }
   @include media-view(600px){
     @include wide-bubble(90%, 100px);
+    font-size: 2em;
   }
 }
 #amenities-div {
@@ -114,6 +118,10 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
+  @include media-view(600px){
+    @include wide-bubble(90%, 100px);
+    font-size: 2em;
+  }
 }
 #join-div {
   @include center-it;
@@ -122,7 +130,11 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  a {
+  // a {
+  //   font-size: 2em;
+  // }
+  @include media-view(600px){
+    @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
 }
@@ -132,5 +144,9 @@ a {
   @include bubble-inNout;
   a:hover {
     animation: hovering 3s linear;
+  }
+  @include media-view(600px){
+    @include wide-bubble(90%, 100px);
+    font-size: 2em;
   }
 }
