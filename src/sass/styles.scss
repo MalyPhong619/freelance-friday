@@ -54,14 +54,16 @@ body {
   @include media-view(600px) {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-around;
+    top: 0;
   }
   h1 {
     color: #3C4547;
     grid-area: 2 / 3;
     font-family: $header-font;
-    font-size: 8em;
+    font-size: 8rem;
     @include media-view(600px) {
-      font-size: 5rem;
+      font-size: 6rem;
     }
   }
   #workspace-div {
@@ -100,6 +102,9 @@ a {
   }
   a {
     font-size: 1.3em;
+  }
+  @include media-view(600px){
+    @include wide-bubble(90%, 100px);
   }
 }
 #amenities-div {
