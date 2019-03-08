@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'mixins';
+@import 'keyframes';
 @import 'bubbles';
 
 body {
@@ -22,15 +23,18 @@ body {
     align-self: center;
     @include circle(5em);
     @include bubble-inNout;
+    opacity: 0;
   }
   #bubble-3, #bubble-7, #bubble-8, #bubble-11, #bubble-15, #bubble-2, #bubble-12, #bubble-13 {
     align-self: right;
     @include circle(9em);
     @include bubble-inNout;
+    opacity: 0;
   }
   #bubble-4, #bubble-16, #bubble-6, #bubble-10{
     @include circle(4em);
     @include bubble-inNout;
+    opacity: 0;
   }
 }
 

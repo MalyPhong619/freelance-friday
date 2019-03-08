@@ -1,0 +1,14 @@
+@keyframes movement {
+  from {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  // 50% {
+  //   transform: translateY(-100px);
+  //   opacity: .5;
+  // }
+  to {
+    transform: translateY(-200px);
+    opacity: .3;
+  }
+}

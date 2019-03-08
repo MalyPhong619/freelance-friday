@@ -1,61 +1,64 @@
-@keyframes movement {
-  from {
-
-  }
-  to {
-    transform: translateY(100px);
-  }
-
-}
-
 #bubble-1 {
   grid-area: 1 / 2;
-  animation: movement 3s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
+  animation: movement 5s 2s infinite;
 }
 #bubble-2 {
   grid-area: 3 / 4;
+  animation: movement 6s 2s infinite;
 }
 #bubble-3 {
   grid-area: 4 / 7;
+  animation: movement 7s 1s infinite;
 }
 #bubble-4 {
   grid-area: 5 / 6;
+  animation: movement 8s 3s infinite;
 }
 #bubble-5 {
   grid-area: 5 / 1;
+  animation: movement 5s 2s infinite;
 }
 #bubble-6 {
   grid-area: 4 / 2;
+  animation: movement 6s 1s infinite;
 }
 #bubble-7 {
   grid-area: 5 / 4;
+  animation: movement 5s 3s infinite;
 }
 #bubble-8 {
   grid-area: 9 / 8;
+  animation: movement 8s 1s infinite;
 }
 #bubble-9 {
   grid-area: 9 / 3;
+  animation: movement 5s 3s infinite;
 }
 #bubble-10 {
   grid-area: 7 / 5;
+  animation: movement 4s 2s infinite;
 }
 #bubble-11 {
   grid-area: 6 / 3;
+  animation: movement 8s 4s infinite;
 }
 #bubble-12 {
   grid-area: 7 / 7;
+  animation: movement 5s 1s infinite;
 }
 #bubble-13 {
   grid-area: 8 / 2;
+  animation: movement 5s 3s infinite;
 }
 #bubble-14 {
   grid-area: 1 / 7;
+  animation: movement 7s 4s infinite;
 }
 #bubble-15 {
   grid-area: 7 / 1;
+  animation: movement 9s 4s infinite;
 }
 #bubble-16 {
   grid-area: 2 / 8;
+  animation: movement 4s 1s infinite;
 }
