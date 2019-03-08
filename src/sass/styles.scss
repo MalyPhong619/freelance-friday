@@ -56,9 +56,10 @@ body {
   align-items: center;
   @include media-view(600px) {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column;
     justify-content: space-around;
     top: 0;
+    left: 0;
   }
   h1 {
     color: #3C4547;
