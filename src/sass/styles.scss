@@ -51,6 +51,11 @@ body {
     @include media-view(360px, 480px) {
       font-size: 5rem;
     }
+    @include media-view(481px, 940px){
+      position: fixed;
+      top: 30%;
+      font-size: 6rem;
+    }
   }
   #workspace-div {
     grid-area: 1 / 2;
@@ -81,7 +86,6 @@ a {
 #workspace-div {
   @include center-it;
   @include circle(10em);
-  @include bubble-inNout;
   a:hover {
     animation: hovering 3s linear;
   }
@@ -89,11 +93,15 @@ a {
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
+  @include media-view(481px, 1000px){
+    a {
+      font-size: 2em;
+    }
+  }
 }
 #amenities-div {
   @include center-it;
   @include circle(7em);
-  @include bubble-inNout;
   a:hover {
     animation: hovering 3s linear;
   }
@@ -105,7 +113,6 @@ a {
 #join-div {
   @include center-it;
   @include circle(8em);
-  @include bubble-inNout;
   a:hover {
     animation: hovering 3s linear;
   }
@@ -113,11 +120,15 @@ a {
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
+  @include media-view(481px, 1000px){
+    a {
+      font-size: 2em;
+    }
+  }
 }
 #contact-div {
   @include center-it;
   @include circle(5em);
-  @include bubble-inNout;
   a:hover {
     animation: hovering 3s linear;
   }
