@@ -153,3 +153,39 @@ a {
     }
   }
 }
+.icon-div {
+  display: none;
+}
+
+@include media-view(941px, 1920px) {
+.icon-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  z-index: -1;
+  width: 90vw;
+  height: 90vh;
+  left: 20px;
+  i {
+    @include center-it;
+    @include circle(3em);
+    opacity: 0;
+  }
+  .fa-desktop {
+    grid-area: 3 / 2;
+      animation: movement 4s 3s infinite;
+  }
+  .fa-phone {
+    grid-area: 4/ 4;
+      animation: movement 5s 2s infinite;
+  }
+  .fa-coffee {
+    grid-area: 2 / 4;
+      animation: movement 7s 1s infinite;
+  }
+  .fa-user {
+    grid-area: 4 / 2;
+      animation: movement 5s 4s infinite;
+  }
+}
+}
