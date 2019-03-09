@@ -7,7 +7,7 @@ body {
   cursor: grab;
   text-align: center;
   background-image: radial-gradient(white, pink, #D1E88E,  #7BDBC5);
-  @include media-view(600px) {
+  @include media-view(360px, 480px) {
     background-image: linear-gradient(white, pink, #D1E88E,  #7BDBC5);
   }
 }
@@ -22,28 +22,10 @@ body {
   width: 80%;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  @include media-view(600px) {
+  @include media-view(360px, 480px) {
     display: none;
   }
-  #bubble-1, #bubble-5, #bubble-9, #bubble-14{
-    align-self: center;
-    @include circle(5em);
-    @include bubble-inNout;
-    opacity: 0;
-  }
-  #bubble-3, #bubble-7, #bubble-8, #bubble-11, #bubble-15, #bubble-2, #bubble-12, #bubble-13 {
-    align-self: right;
-    @include circle(9em);
-    @include bubble-inNout;
-    opacity: 0;
-  }
-  #bubble-4, #bubble-16, #bubble-6, #bubble-10{
-    @include circle(4em);
-    @include bubble-inNout;
-    opacity: 0;
-  }
 }
-
 
 .container {
   position: fixed;
@@ -54,7 +36,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
-  @include media-view(600px) {
+  @include media-view(360px, 480px) {
     display: flex;
     flex-flow: column;
     justify-content: space-around;
@@ -66,8 +48,8 @@ body {
     grid-area: 2 / 3;
     font-family: $header-font;
     font-size: 8rem;
-    @include media-view(600px) {
-      font-size: 6rem;
+    @include media-view(360px, 480px) {
+      font-size: 5rem;
     }
   }
   #workspace-div {
@@ -82,7 +64,6 @@ body {
   #contact-div {
     grid-area: 3 / 4;
   }
-
 }
 
 
@@ -104,10 +85,7 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  // a {
-  //   font-size: 1.3em;
-  // }
-  @include media-view(600px){
+  @include media-view(360px, 480px){
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
@@ -119,7 +97,7 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  @include media-view(600px){
+  @include media-view(360px, 480px){
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
@@ -131,10 +109,7 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  // a {
-  //   font-size: 2em;
-  // }
-  @include media-view(600px){
+  @include media-view(360px, 480px){
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
@@ -146,7 +121,7 @@ a {
   a:hover {
     animation: hovering 3s linear;
   }
-  @include media-view(600px){
+  @include media-view(360px, 480px){
     @include wide-bubble(90%, 100px);
     font-size: 2em;
   }
