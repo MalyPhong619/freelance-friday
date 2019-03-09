@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
 }
-
 @mixin circle($number) {
   height: $number;
   width: $number;
@@ -12,13 +11,11 @@
   opacity: .8;
   box-shadow: 8px 8px 50px black, inset 8px 3px 25px white;
 }
-
 @mixin wide-bubble($width, $height) {
   width: $width;
   height: $height;
   border-radius: 100px;
 }
-
 @mixin media-view($min-width, $max-width){
   @media screen and (min-width: $min-width) and (max-width: $max-width) {
     @content;
