@@ -12,10 +12,6 @@
   opacity: .8;
   box-shadow: 8px 8px 50px black, inset 8px 3px 25px white;
 }
-@mixin bubble-inNout {
-  opacity: .8;
-  box-shadow: 8px 8px 50px black, inset 8px 3px 25px white;
-}
 
 @mixin wide-bubble($width, $height) {
   width: $width;

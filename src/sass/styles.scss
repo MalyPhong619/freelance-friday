@@ -51,7 +51,7 @@ body {
     @include media-view(360px, 480px) {
       font-size: 5rem;
     }
-    @include media-view(481px, 940px){
+    @include media-view(481px, 940px) {
       position: fixed;
       top: 30%;
       font-size: 6rem;
@@ -98,6 +98,11 @@ a {
       font-size: 2em;
     }
   }
+  @include media-view(941px, 1920px) {
+    a {
+      font-size: 2.5em;
+    }
+  }
 }
 #amenities-div {
   @include center-it;
@@ -125,6 +130,11 @@ a {
       font-size: 2em;
     }
   }
+  @include media-view(941px, 1920px) {
+    a {
+      font-size: 2.5em;
+    }
+  }
 }
 #contact-div {
   @include center-it;
@@ -135,5 +145,11 @@ a {
   @include media-view(360px, 480px){
     @include wide-bubble(90%, 100px);
     font-size: 2em;
+  }
+  @include media-view(941px, 1920px) {
+    @include circle(9em);
+    a {
+      font-size: 1.5em;
+    }
   }
 }
