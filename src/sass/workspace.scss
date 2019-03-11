@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 .ws_body {
   background: none;
 }
@@ -6,7 +9,23 @@
   margin: auto;
   width: 60vw;
   img {
+    flex-shrink: 0;
     width: 100%;
     height: auto;
+  }
+}
+
+.split_div {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  div {
+    width: (98% / 2);
+    height: 10px;
+    padding: 2px;
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
