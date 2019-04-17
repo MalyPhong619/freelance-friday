@@ -1,5 +1,7 @@
 # _Finger Tapper_ #
 
+https://finger-tapper.netlify.com/
+
 #### _Finger Tapper provides work spaces for anyone and everyone who needs to step out of the house or office and work in an environment that will allow them to focus solely on work. Finger Tapper provides all types of tools and tables to get your work done!_
 
 This website will show the user what type of space is available and what tools are provided by Finger Tapper. Users will also be able ato contact Finger Tapper, join and reserve space. A list of amenities and types of work areas have a path site so users can views and see what's available.
